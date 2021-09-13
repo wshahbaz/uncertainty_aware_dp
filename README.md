@@ -18,4 +18,6 @@ Afterwards, we replicate the DNN ResNet architecture from above, but wrap the mo
 
 With SNGP, our class probabilities transitioned to 0.5 (ie random guessing) for data examples outside the training examples (blue and orange clusters). The predictive uncertainty of the model increased to 1 as we transitioned to these regions, so the out-of-domain (OOD) examples (red) were detectable by the SNGP model.
 
+### Refernces
+- [Simple and Principled Uncertainty Estimation with Deterministic Deep Learning via Distance Awareness](https://arxiv.org/abs/2006.10108)
 
